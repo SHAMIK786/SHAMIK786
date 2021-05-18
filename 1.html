@@ -1,0 +1,27 @@
+<html> 
+<head>
+    <title>SHAMIK</title> 
+<h1> THIS PROGRAM IS CREATED BY SHAMIK </h1>
+</head>
+<script type="text/JavaScript">
+function click1() 
+{
+    var user1 = document.getElementById("a").value;
+    var pass1 = document.getElementById("b").value;
+    
+    if(user1==pass1)
+     document.write("<h4> Your Email Id And Password is Same:- </h4> "+"User Name:- "+user1+"<br>"+"Password:- "+pass1);
+    else 
+     alert(" Your Email Id and Password Is Wrong:- "+"User:-"+user1+"  "+"Password:-"+pass1); 
+}             
+     
+
+</script>
+<body>
+   <input id = "a" placeholder="Enter User Name">
+   <br>  <input type = "Password" id = "b" placeholder="Enter Password">
+    <br> <button onclick="click1()">Click Me</button>
+    <p> Click on the Above Button to check your Email Id and your Password is Same or Not..!!!   
+</body>
+
+</html>
